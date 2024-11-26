@@ -32,7 +32,7 @@ if checkNum(num1) and float(num1) <= 100:
                     result = grades[:3]
                     nums = list(map(float, result))
                     final_grade = (nums[0] + nums[1] + nums[2]) / 3
-                    print(final_grade)
+                    print("The grade is", final_grade)
                 else:
                     print("Invalid number entered")
             else:
